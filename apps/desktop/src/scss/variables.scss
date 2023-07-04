@@ -1,9 +1,10 @@
-﻿@import "~nord/src/sass/nord.scss";
+﻿@use "nekoppuccin";
+@import "~nord/src/sass/nord.scss";
 
 $dark-icon-themes: "theme_dark", "theme_nord";
 
-$font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-sans-serif: "Inter Tight", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-monospace: "Space Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-size-base: 14px;
 $font-size-large: 18px;
 $font-size-small: 12px;
@@ -102,7 +103,7 @@ $themes: (
     codeColor: $code-color,
   ),
   dark: (
-    textColor: #ffffff,
+    textColor: $text,
     borderColor: #2f2f2f,
     backgroundColor: #363636,
     borderColorAlt: #6e788a,
