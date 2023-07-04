@@ -44,23 +44,13 @@
     }
   }
 
-  &.active {
-    border-left: 5px solid #000000;
-    padding-left: 5px;
+  // &.active {
+  //   padding-left: 5px;
+  // }
 
-    @include themify($themes) {
-      border-left-color: themed("primaryColor");
-    }
-  }
-
-  &:focus:not(.active) {
-    border-left: 5px solid #000000;
-    padding-left: 5px;
-
-    @include themify($themes) {
-      border-left-color: themed("mutedColor");
-    }
-  }
+  // &:focus:not(.active) {
+  //   padding-left: 5px;
+  // }
 
   .text,
   .detail {

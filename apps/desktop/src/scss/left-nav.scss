@@ -5,13 +5,11 @@
   width: 22%;
   min-width: 175px;
   max-width: 250px;
-  border-right: 1px solid #000000;
   flex-grow: 1;
   justify-content: space-between;
 
   @include themify($themes) {
     background-color: themed("backgroundColorAlt");
-    border-right-color: themed("borderColor");
   }
 }
 
@@ -26,9 +24,6 @@
   .filter {
     hr {
       margin: 1em 0 1em 0;
-      @include themify($themes) {
-        border-color: themed("hrColor");
-      }
     }
   }
 }

@@ -149,3 +149,24 @@ h2 {
 .bwi-shield:before {
   content: "\e932";
 }
+
+@font-face {
+  font-family: "Phosphor-Bold";
+  src: url(../images/Phosphor-Bold.svg) format("svg"),
+    url(../fonts/Phosphor-Bold.ttf) format("truetype"),
+    url(../fonts/Phosphor-Bold.woff) format("woff");
+}
+
+.phosphor {
+  font-family: "Phosphor-Bold" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
